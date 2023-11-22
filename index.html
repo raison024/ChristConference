@@ -21,7 +21,7 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">IDSC'24</a>
+        <a class="navbar-brand" href="#">ICSAC'24</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,22 +29,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" href="#" aria-current="page">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Speakers</a>
+              <a class="nav-link" href="#reg">Registration</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Committees</a>
+              <a class="nav-link" href="#dates">Dates</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Schedule</a>
+              <a class="nav-link" href="#speakers">Speakers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Registration</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="./committee.html">Committee</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -52,12 +49,12 @@
                 Download
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">IDSC'23 Template</a></li>
-                <li><a class="dropdown-item" href="#">Latex Template</a></li>
+                <li><a class="dropdown-item" href="./assets/template.docx" download="template.docx">Paper Submission
+                    Template</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
               </ul>
             </li>
 
@@ -154,16 +151,51 @@
       </div>
     </div>
 
-    <div class="card cont mt-4">
-      <h4 class="card-header">Important Dates</h4>
-      <div class="card-body">
-        <!-- <h5 class="card-title">International Conference on Sustainable Advanced Computing</br></h5> -->
-        <img src="assets/time2.png" width="100%" style="border-radius: 10px;" />
+    <div class="card cont" id="reg">
+      <div class="card-body text-start">
+        <h5>REGISTRATION DETAILS</h5>
+        <hr>
+        <p class="card-text">
+        <ul>
+          <li>Foreign Delegates: $100</li>
+          <li>Academians / Industrialist: Rs. 7500</li>
+          <li>Research Scholars: Rs. 6500</li>
+          <li>Students: Rs. 5000</li>
+          <li>Co-Author: Rs. 1500</li>
+          <li>Participant: Rs. 1000</li>
+        </ul>
+        </p>
       </div>
-
+      <div class="card-body text-start">
+        <h5>PUBLICATION & INDEXING</h5>
+        <hr>
+        <p class="card-text">
+        <ul>
+          <li>Selected papers will be published in springer Book and UGC Care Listed Journal with free of cost</li>
+          <li>All the accepted paper will be published in conference proceedings with ISBN</li>
+        </ul>
+        </p>
+      </div>
+      <div class="card-body text-start">
+        <h5>REGISTRATION PROCESS</h5>
+        <hr>
+        <p class="card-text">
+        <ul>
+          <li><a href="http://christuniversity.in">http://christuniversity.in</a> -> E-services -> Online Payment Portal
+            -> Central
+            Campus -> Conference->ICSAC</li>
+        </ul>
+        </p>
+      </div>
     </div>
 
-    <div class="card cont mt-4">
+    <div class="card cont mt-4" id="dates">
+      <div class="card-body">
+        <img src="assets/schedule.png" width="100%" style="border-radius: 10px;" />
+      </div>
+    </div>
+
+    <div class="card cont mt-4" id="speakers">
       <h4 class="card-header">Speakers</h4>
       <div class="card-body">
         <!-- <h5 class="card-title">International Conference on Sustainable Advanced Computing</br></h5> -->
@@ -172,42 +204,6 @@
 
     </div>
 
-    <h4 class="mt-4">Organizing Committee</h4>
-
-    <div class="card cont">
-      <div class="card-body text-start">
-        <h5>Patrons</h5>
-        <hr>
-        <p class="card-text">
-        <ul>
-          <li>Dr. Rajesh Kanna R</li>
-          <li>Dr. Rajesh Kanna R</li>
-          <li>Dr. Rajesh Kanna R</li>
-          <li>Dr. Rajesh Kanna R</li>
-        </ul>
-        </p>
-      </div>
-    </div>
-
-    <div class="card cont">
-      <div class="card-body text-start">
-        <h5>International Advisors</h5>
-        <hr>
-        <p class="card-text">
-        <ul>
-          <li>Dr. Rajesh Kanna R</li>
-          <li>Dr. Rajesh Kanna R</li>
-          <li>Dr. Rajesh Kanna R</li>
-          <li>Dr. Rajesh Kanna R</li>
-        </ul>
-        </p>
-      </div>
-    </div>
-
-
-
-
-
 
     <div style="background-color:#104e57; width: 100%; padding-block: 20px; color: white; margin-top: 20px;">
       <h4 style="color: white;">Venue Details</h4>
@@ -215,9 +211,14 @@
         Christ(Deemed to be University)<br>
         Central Campus, Bangalore, India</p>
 
-      <h4 style="color: white;">Contact Us</h4>
-      <p>rajeshkanna.r@christuniversity.in<br>
-        rajeshkanna.r@christuniversity.in</p>
+      <h4 style="color: white;">For Further Clarification</h4>
+      <h6>Regarding Conference: </h6>
+      <p>Dr Chandra J 98863 06307<br>
+        Dr Rajesh Kanna R 82489 76915<br>
+        Dr Thriunavukarasu V 94872 21719</p>
+
+      <h6>Publication: </h6>
+      <p>Dr Sagaya Aurelia 91132 64461</p>
     </div>
 
   </div>
