@@ -13,7 +13,6 @@ html {
 }
 
 nav {
-    position: absolute;
     width: 100%;
 }
 
@@ -23,6 +22,7 @@ nav {
 
 
 .page {
+    min-height: 100vh;
     width: 100%;
     text-align: center;
     display: flex;
@@ -30,6 +30,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
 
 .page h4 {
     /* margin: 20px; */
@@ -84,8 +85,33 @@ nav {
     margin-block: 10px;
 }
 
+.card {
+    width: 50%;
+}
+
+.schedule-img {
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
 @media only screen and (max-width: 900px) {
     .cont {
         width: 100%;
+    }
+    .schedule-img {
+        width: 100%;
+        border-radius: 0;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+        /* background-color: blue; */
+    }
+    .schedule-img {
+        width: 100%;
+        border-radius: 0;
     }
   }

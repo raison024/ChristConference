@@ -55,11 +55,16 @@ const advCom = [
     // Add more members as needed
 ];
 
+// const speakers = [
+//     { name: 'Coming Soon' },
+//     { name: "Dr. N Rukma Rekha", role: "University of Hyderabad", organization: "Hyderabad, India" }
+// ];
+
 // Function to create a card element based on the data
 function createCard(member) {
     const card = document.createElement("div");
     card.className = "card";
-    card.style = "width: 18rem; margin: 10px;";
+    card.style = "margin: 7px;";
 
     const cardBody = document.createElement("div");
     cardBody.className = "card-body";
@@ -89,6 +94,7 @@ function addCardsToPage() {
     const orgsec = document.getElementById("orgsec");
     const convener = document.getElementById("convener");
     const advContainer = document.getElementById("advContainer");
+    // const speakerContainer = document.getElementById("speakerContainer");
 
     // Loop through the committeeMembers array and create cards for each member
     execMembers.forEach(member => {
@@ -125,6 +131,11 @@ function addCardsToPage() {
         const card = createCard(member);
         advContainer.appendChild(card);
     });
+
+    // speakers.forEach(member => {
+    //     const card = createCard(member);
+    //     speakerContainer.appendChild(card);
+    // });
 }
 
 // Call the function to add cards when the page is loaded
