@@ -47,10 +47,7 @@ nav {
 }
 
 .carousel-item img {
-    height: 60vh;
-    width: 100%;
     object-fit: cover;
-
 }
 
 .carousel-header {
