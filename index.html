@@ -1,321 +1,876 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ICSAC'24</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' />
+  <title>ICSAC'24</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <link href="assets/img/favicon.png" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
+
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto"><a href="index.html">ICSAC'24</a></h1>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-
-  <div class="page">
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">ICSAC'24</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="#" aria-current="page">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#reg">Registration</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#dates">Dates</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./speakers.html">Speakers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./committee.html">Committee</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Download
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./assets/template.docx" download="template.docx">Paper Submission
-                    Template</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-              </ul>
-            </li>
-
-
-          </ul>
-
-
-          <a class="btn btn-success ms-2" href="https://cmt3.research.microsoft.com/ICSAC2024"
-            style="background-color: #104e57;">Paper Submission</a>
-
-
-        </div>
-      </div>
-    </nav>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
-      style="width: 100%; background-color: aqua;">
-      <div class="carousel-inner">
-        <!-- <h2 class="carousel-header">Welcome IDSC'24</h2> -->
-        <div class="carousel-item active" style="height: 85vh;" data-bs-interval="1000">
-          <img src="./assets/img4.jpg" class="d-flex h-100 w-100" alt="Conference Image1">
-        </div>
-        <div class="carousel-item" style="height: 85vh;" data-bs-interval="1000">
-          <img src="./assets/img2.jpg" class="d-flex h-100 w-100" alt="Conference Image2">
-        </div>
-        <div class="carousel-item" style="height: 85vh;" data-bs-interval="1000">
-          <img src="./assets/img3.png" class="d-flex h-100 w-100" alt="Conference Image3">
-        </div>
-      </div>
-    </div>
-
-<Marquee><b><h2>Paper Submission Deadline over for Category-I Paper Submission.</h2></b></Marquee>
-    <div class="card cont mt-4">
-      <h4 class="card-header">About the Conference</h4>
-      <div class="card-body">
-        <h5 class="card-title">International Conference on Sustainable Advanced Computing</br></h5>
-
-        <p class="card-text ">
-          In the ever-evolving landscape of advanced computing, sustainability has emerged as a defining
-          imperative. The International Conference on Sustainable Advanced Computing (ICSAC) is conceived as a
-          beacon in this domain, dedicated to advancing the cause of sustainable computing. ICSAC aims to
-          provide a multidisciplinary platform where researchers, practitioners, policymakers, and industry
-          leaders converge to explore, discuss, and innovate sustainable solutions within the realm of advanced
-          computing. ICSAC recognizes that sustainability is no longer an option but an imperative for the future
-          of computing. Sustainability encompasses ecological responsibility, ethical computing practices, and
-          social inclusivity. The conference's theme, "Advancing Sustainability in Advanced Computing:
-          Innovation, Ethics, and Inclusion," reflects this holistic approach, emphasizing the need for innovative
-          solutions, ethical frameworks, and equitable access.
-        </p>
-      </div>
-
-    </div>
-
-    <div class="card cont">
-      <h5 class="card-header">22-23, March’2024</h5>
-      <div class="card-body text-start">
-        <p class="card-text">This conference is conducted by CHRIST (Deemed to be University), Bangalore, India.
-          It would provide an opportunity to spotlight research ideas
-          to an international community as well as be a platform to get abreast on the latest trends in the field of
-          Business and Computing Sciences. In the last three decades, numerous technologies have surfaced replacing
-          the older ones and also getting themselves replaced rapidly, while on the other hand,
-          alternate technologies with competitive affordability also have been produced swiftly.
-          Therefore, the challenge for new technology is its sustainability and affordability.
-          This conference aims in exploring research outputs that are bringing out new technologies that
-          are both sustainable and affordable to the millions who consume them or make a commodity of them.
-
-          It aims to offer an international platform for academicians, researchers, engineers, entrepreneurs,
-          industry experts, and budding research scholars around the world to share their
-          research findings with global experts. Such a gathering will also help the delegates to
-          establish research or business relations as well as to find international linkage for future
-          collaborations in their career path.
-
-          This Conference will be carried out in a hybrid format, allowing world-scattered researchers,
-          academicians, business and industry professionals, and policymakers to participate in this Conference.
-          <br><br>
-          <b>We invite original research submissions and findings based on large scale practical implementation on the
-            following topics, but not limited to:</b>
+      <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li>Sustainable AI and Machine Learning</li>
-          <li>Green Robotics</li>
-          <li>Sustainable Machine Learning for Sustainability</li>
-          <li>AI for Energy Management</li>
-          <li>AR and VR for Environmental Education</li>
-          <li>Virtual Labs and Simulations</li>
-          <li>Sustainable AI in Healthcare</li>
-          <li>Robotics in Sustainable Agriculture</li>
-          <li>Ethics and Responsibility in AI</li>
-          <li>Digital Twins and Sustainability</li>
-          <li>Sustainable AI Hardware</li>
-          <li>Sustainable AI Policies and Regulations</li>
-          <li>Smart Cities and Sustainable Technologies</li>
-          <li>AI-Driven Environmental Monitoring</li>
-          <li>Eco-Friendly Robotics in Education</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#registration">Registration</a></li>
+          <li><a href="#dates">Dates</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="committee.html">Committee</a></li>
+
+          <li class="dropdown">
+            <a href="#"><span>Download</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="assets/documents/template.docx" download="template.docx">Paper Submission Template</a></li>
+            </ul>
+          </li>
         </ul>
-        </p>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+      <a href="https://cmt3.research.microsoft.com/ICSAC2024" class="get-started-btn">Paper Submission</a>
+    </div>
+  </header>
+
+  <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/images/Banner1.jpeg" alt="First slide" />
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/Banner2.jpeg" alt="Second slide" />
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/Banner3.jpeg" alt="Third slide" />
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/Banner4.jpeg" alt="Third slide" />
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/Banner5.jpeg" alt="Third slide" />
       </div>
     </div>
-    <div class="card cont" id="reg">
-      <div class="card-body text-start">
-        <h5>PAPER SUBMISSION</h5>
-        <hr>
-        <p class="card-text">
-        <ul>
-          <li>Category - I : Full Paper (Min 8 -Max 13 Pages in Springer Format)</li>
-          <li>Category - II : Short Paper (Min 3 -Max 5 Pages in Springer Format)</li>
-          <li>Category - III : Poster (1 Page in IEEE Format)</li>
-        </ul>
-        </p>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+  </div>
+
+  <section id="counts" class="counts section-bg">
+    <div class="container">
+      <div class="row counters">
+        <div class="col-lg-3 col-6 text-center">
+          <span id="daysO"></span>
+          <p>Days</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span id="hoursO"></span>
+          <p>hours</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span id="minsO"></span>
+          <p>minutes</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span id="secsO"></span>
+          <p>Seconds</p>
+        </div>
       </div>
-
     </div>
-    <div class="card cont">
-      <div class="card-body">
-        <h5>HIGHLIGHTS</h5>
-        <hr>
-        <p class="card-text">
-        <ul>
-          <li>Best Poster Award / Scopus/ UGC / Google Scholar Indexed</li>
-          <li>Conference Symposium</li>
-          <li>Conference Seminar</li>
-          <li>Selected Papers can be presented in Blended Mode(Offline / Onlline / Social Media)</li>
-          <li>Eminent Speakers from R&D, Industry and University (Healthcare, AI&ML/ IoT/ Cloud / Clinical Experts and
-            etc)</li>
-        </ul>
-        </p>
-      </div>
-    </div>
+  </section>
 
-    <div class="card cont">
-    <div class="card-body">
-      <h5>REGISTRATION DETAILS</h5>
-      <hr>
-      <p class="card-text">
-      <ul>
-        <li><font color="Red"> <b>10% Discount for Early Bird Registration</b></font> </li>
-        <li>Foreign Delegates: $100</li>
-        <li>Academians / Industrialist: Rs. 7500</li>
-        <li>Research Scholars: Rs. 6500</li>
-        <li>Students: Rs. 5000</li>
-        <li>Co-Author: Rs. 1500</li>
-        <li>Poster Presentation: Rs. 1000</li>
-        <li>Conference Participant: Rs. 1000</li>
-        <li>Short Paper: Rs. 2000( Facuty / Research Scholors / Students)</li>
-      </ul>
-      </p>
-    </div>
-  </div>
-  
- 
-  <div class="card cont" id="reg">
-    <div class="card-body text-start">
-      <h5>Important Dates</h5>
-      <hr>
-      <p class="card-text">
-      <ul>
-        <li>Paper Submission :<strike> 05.02.2024</strike><b>10.02.2024</b> </li> (Final Deadline)</li>
-        <li>Acceptance Notofication : 25.02.2024</li>
-        <li>Revised Paper Submission : 01.03.2024</li>
-        <li><b>Last Date for Early Bird Registration: 10.03.2024</b></li>
-        <li>Copyright Form Submission : 15.03.2024</li>
-      </ul>
-      </p>
-    </div>
-  </div>
-
-  <div class="card cont">
-  <div class="card-body text-start">
-    <h5>PUBLICATION & INDEXING</h5>
-    <hr>
-    <p class="card-text">
-    <ul>
-      <li>Selected papers will be published in springer Book and UGC Care Listed Journal with free of cost</li>
-      <li>Selected papers from Category - I will be published in Springer CCIS(Scopus), Mapna Journal(UGC-Care) and
-        ISBN Book, Conference Proceedings (Book of Abstracts)</li>
-      <li>Selected papers from Category - II will be published in Mapna Journal(UGC-Care), ISBN Book, Conference
-        Proceedings (Book of Abstracts)</li>
-      <li>Selected posters from Category - III will be published Conference Proceedings (Book of Abstracts)</li>
-      <li>Submission of Full Paper, Short Paper and Posters through https://cmt3.research.microsoft.com/ICSAC2024</li>
-    </ul>
-    </p>
-  </div>
-</div>
+  <Marquee><b>
+      <h2>Paper Submission Deadline over for Category-I Paper Submission.</h2>
+    </b></Marquee>
 
 
-<div class="card cont mb-5">
-  <div class="card-body text-start">
-    <h5>REGISTRATION PROCESS</h5>
-    <hr>
-    <p class="card-text">
-    <ul>
-      <li><a href="http://christuniversity.in">http://christuniversity.in</a> -> E-services -> Online Payment Portal
-        -> Central
-        Campus -> Conference->ICSAC</li>
-    </ul>
-    </p>
-  </div>
-</div>
-
-
-
-
-  <!-- <div class="card cont mt-4" id="speakers">
-      <h4 class="card-header">Speakers</h4>
-      <div class="card-body">
-        <img src="assets/updating.png" width="100%" style="border-radius: 10px;" />
-      </div>
-    </div> -->
-
-
-  <footer id="footer" class="footer-1">
-    <div class="main-footer widgets-dark typo-light">
-      <div class="container">
+  <main id="main">
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
         <div class="row">
+          <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/images/Banner6.jpg" class="img-fluid" alt="" />
+          </div> -->
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/images/Banner7.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <div class="card cont mt-4">
+              <h4 class="card-header">About the Conference</h4>
+              <div class="card-body">
+                <h5 class="card-title">International Conference on Sustainable Advanced Computing</br></h5>
+                <p class="card-text"> In the ever-evolving landscape of advanced computing, sustainability has emerged
+                  as a defining imperative. The International Conference on Sustainable Advanced Computing (ICSAC) is
+                  conceived as a beacon in this domain, dedicated to advancing the cause of sustainable computing. ICSAC
+                  aims to provide a multidisciplinary platform where researchers, practitioners, policymakers, and
+                  industry leaders converge to explore, discuss, and innovate sustainable solutions within the realm of
+                  advanced computing. ICSAC recognizes that sustainability is no longer an option but an imperative for
+                  the future of computing. Sustainability encompasses ecological responsibility, ethical computing
+                  practices, and social inclusivity. The conference's theme, "Advancing Sustainability in Advanced
+                  Computing: Innovation, Ethics, and Inclusion," reflects this holistic approach, emphasizing the need
+                  for innovative solutions, ethical frameworks, and equitable access.
+                </p>
+              </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="widget subscribe no-box">
-              <h5 class="widget-title">Christ(Deemed to be University)<span></span></h5>
-              <p> </p>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="counts" class="counts section-bg">
 
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="widget no-box">
-              <h5 class="widget-title">Quick Links<span></span></h5>
-              <ul class="thumbnail-widget">
-                <li>
-                  <div class="thumb-content"><a href="./index.html">&nbsp;Home</a></div>
-                </li>
-                <li>
-                  <div class="thumb-content"><a href="./speakers.html">&nbsp;Speakers</a></div>
-                </li>
+      <div class="row counters">
 
-                <li>
-                  <div class="thumb-content"><a href="./committee.html">&nbsp;Committee</a></div>
-                </li>
-              </ul>
-            </div>
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+            class="purecounter d-inline"></span><span class="d-inline ml-2">+</span>
+          <p>Key Speakers</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1"
+            class="purecounter d-inline"></span><span class="d-inline ml-2">+</span>
+          <p>Participants</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="250" data-purecounter-duration="1"
+            class="purecounter d-inline"></span><span class="d-inline ml-2">+</span>
+          <p>Research Articles</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
+            class="purecounter"></span>
+          <p>Panel Discussions</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="counts" class="counts ">
+
+      <div class="paperdiv"></div>
+      <div class="container">
+        <div class="card cont">
+          <h5 class="card-header">22-23, March'2024</h5>
+          <div class="card-body text-start">
+            <p class="card-text">This conference is conducted by CHRIST (Deemed to be University), Bangalore, India.
+              It would provide an opportunity to spotlight research ideas
+              to an international community as well as be a platform to get abreast on the latest trends in the field of
+              Business and Computing Sciences. In the last three decades, numerous technologies have surfaced replacing
+              the older ones and also getting themselves replaced rapidly, while on the other hand,
+              alternate technologies with competitive affordability also have been produced swiftly.
+              Therefore, the challenge for new technology is its sustainability and affordability.
+              This conference aims in exploring research outputs that are bringing out new technologies that
+              are both sustainable and affordable to the millions who consume them or make a commodity of them.
+
+              It aims to offer an international platform for academicians, researchers, engineers, entrepreneurs,
+              industry experts, and budding research scholars around the world to share their
+              research findings with global experts. Such a gathering will also help the delegates to
+              establish research or business relations as well as to find international linkage for future
+              collaborations in their career path.
+
+              This Conference will be carried out in a hybrid format, allowing world-scattered researchers,
+              academicians, business and industry professionals, and policymakers to participate in this Conference.
+              <br><br>
+              <b>We invite original research submissions and findings based on large scale practical implementation on
+                the
+                following topics, but not limited to:</b>
+            <!-- <ul>
+              <li>Sustainable AI and Machine Learning</li>
+              <li>Green Robotics</li>
+              <li>Sustainable Machine Learning for Sustainability</li>
+              <li>AI for Energy Management</li>
+              <li>AR and VR for Environmental Education</li>
+              <li>Virtual Labs and Simulations</li>
+              <li>Sustainable AI in Healthcare</li>
+              <li>Robotics in Sustainable Agriculture</li>
+              <li>Ethics and Responsibility in AI</li>
+              <li>Digital Twins and Sustainability</li>
+              <li>Sustainable AI Hardware</li>
+              <li>Sustainable AI Policies and Regulations</li>
+              <li>Smart Cities and Sustainable Technologies</li>
+              <li>AI-Driven Environmental Monitoring</li>
+              <li>Eco-Friendly Robotics in Education</li>
+            </ul> -->
+            <section id="features" class="features">
+              <div class="container" data-aos="fade-up">
+        
+                <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="col-lg-3 col-md-4">
+                    <div class="icon-box">
+                      <i class="ri-store-line" style="color: #ffbb2c;"></i>
+                      <h3><a href="">Sustainable AI and Machine Learning</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                      <i class="ri-robot-2-line" style="color: #55ff60;"></i>
+                      <h3><a href="">Green Robotics</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                      <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+                      <h3><a href="">Sustainable Machine Learning for Sustainability</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                    <div class="icon-box">
+                      <i class="ri-lightbulb-flash-line" style="color: #e361ff;"></i>
+                      <h3><a href="">AI for Energy Management</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-goggles-fill" style="color: #47aeff;"></i>
+                      <h3><a href="">AR and VR for Environmental Education</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+                      <h3><a href="">Virtual Labs and Simulations</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-hospital-fill" style="color: #1118db;"></i>
+                      <h3><a href="">Sustainable AI in Healthcare</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-plant-line" style="color: #33ff3a;"></i>
+                      <h3><a href="">Robotics in Sustainable Agriculture</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-anchor-line" style="color: #b2904f;"></i>
+                      <h3><a href="">Ethics and Responsibility in AI</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-disc-line" style="color: #b20969;"></i>
+                      <h3><a href="">Digital Twins and Sustainability</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-base-station-line" style="color: #ff5828;"></i>
+                      <h3><a href="">Sustainable AI Hardware</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+                      <h3><a href="">Sustainable AI Policies and Regulations</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+                      <h3><a href="">Smart Cities and Sustainable Technologies</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-mac-fill" style="color: #000000;"></i>
+                      <h3><a href="">AI-Driven Environmental Monitoring</a></h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                      <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+                      <h3><a href="">Eco-Friendly Robotics in Education</a></h3>
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+            </section><!-- End Features Section -->
+            </p>
           </div>
+        </div>
+
+        <div class="paperdiv"></div>
+
+        <!-- <div class="card cont">
+          <h5 class="card-header">Paper Submission</h5>
+          <div class="card-body text-start">
+            <p class="card-text">
+            <ul>
+              <li>Category - I : Full Paper (Min 8 -Max 13 Pages in Springer Format)</li>
+              <li>Category - II : Short Paper (Min 3 -Max 5 Pages in Springer Format)</li>
+              <li>Category - III : Poster (1 Page in IEEE Format)</li>
+            </ul>
+            </p>
+          </div>
+        </div> -->
 
 
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="widget no-box">
-              <h5 class="widget-title">Contact Us<span></span></h5>
-              <div class="emailfield">
-                <input type="text" name="email" value="Email">
-                <input name="uri" type="hidden" value="arabiantheme">
-                <input name="loc" type="hidden" value="en_US">
-                <input class="submitbutton ripplelink" type="submit" value="Subscribe">
-                </form>
+        <div class="paperdiv2"></div>
+
+        <div class="card cont">
+          <h5 class="card-header">HIGHLIGHTS</h5>
+          <div class="card-body">
+            <p class="card-text">
+            <ul>
+              <li>Best Poster Award / Scopus/ UGC / Google Scholar Indexed</li>
+              <li>Conference Symposium</li>
+              <li>Conference Seminar</li>
+              <li>Selected Papers can be presented in Blended Mode(Offline / Onlline / Social Media)</li>
+              <li>Eminent Speakers from R&D, Industry and University (Healthcare, AI&ML/ IoT/ Cloud / Clinical Experts
+                and
+                etc)</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="paperdiv2" id="registration"></div>
+
+        <div class="card cont">
+          <h5 class="card-header">REGISTRATION DETAILS</h5>
+          <div class="card-body">
+            <p class="card-text">
+            <ul>
+              <li>
+                <font color="Red"> <b>10% Discount for Early Bird Registration</b></font>
+              </li>
+              <li>Foreign Delegates: $100</li>
+              <li>Academians / Industrialist: Rs. 7500</li>
+              <li>Research Scholars: Rs. 6500</li>
+              <li>Students: Rs. 5000</li>
+              <li>Co-Author: Rs. 1500</li>
+              <li>Poster Presentation: Rs. 1000</li>
+              <li>Conference Participant: Rs. 1000</li>
+              <li>Short Paper: Rs. 2000( Facuty / Research Scholors / Students)</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
+        <section id="why-us" class="why-us">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="row">
+              <div class="col-lg-4 d-flex align-items-stretch">
+                <div class="content">
+                  <h3>Paper Submission</h3>
+                </div>
+              </div>
+              <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon-boxes d-flex flex-column justify-content-center">
+                  <div class="row">
+                    <div class="col-xl-4 d-flex align-items-stretch">
+                      <div class="icon-box mt-4 mt-xl-0">
+                        <i class="bx bx-receipt"></i>
+                        <h4>Category - I</h4>
+                        <p>Full Paper (Min 8 -Max 13 Pages in Springer Format)</p>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 d-flex align-items-stretch">
+                      <div class="icon-box mt-4 mt-xl-0">
+                        <i class="bx bx-cube-alt"></i>
+                        <h4>Category - II</h4>
+                        <p>Short Paper (Min 3 -Max 5 Pages in Springer Format)</p>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 d-flex align-items-stretch">
+                      <div class="icon-box mt-4 mt-xl-0">
+                        <i class="bx bx-images"></i>
+                        <h4>Category - III</h4>
+                        <p>Poster (1 Page in IEEE Format)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End .content-->
               </div>
             </div>
+    
+          </div>
+        </section><!-- End Why Us Section -->
 
+        <div class="paperdiv2" id="dates"></div>
+
+        <div class="card cont">
+          <h5 class="card-header">Important Dates</h5>
+          <div class="card-body text-start">
+            <p class="card-text">
+            <ul>
+              <li>Paper Submission :<strike> 05.02.2024</strike> <strike>10.02.2024</strike>
+              <li>Acceptance Notofication : 25.02.2024</li>
+              <li>Revised Paper Submission : 01.03.2024</li>
+              <li style="color: red;"><b>Last Date for Early Bird Registration: 10.03.2024</b></li>
+              <li>Copyright Form Submission : 15.03.2024</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="paperdiv2"></div>
+
+        <div class="card cont">
+          <h5 class="card-header">PUBLICATION & INDEXING</h5>
+          <div class="card-body text-start">
+            <p class="card-text">
+            <ul>
+              <li>Selected papers will be published in springer Book and UGC Care Listed Journal with free of cost</li>
+              <li>Selected papers from Category - I will be published in Springer CCIS(Scopus), Mapna Journal(UGC-Care)
+                and
+                ISBN Book, Conference Proceedings (Book of Abstracts)</li>
+              <li>Selected papers from Category - II will be published in Mapna Journal(UGC-Care), ISBN Book, Conference
+                Proceedings (Book of Abstracts)</li>
+              <li>Selected posters from Category - III will be published Conference Proceedings (Book of Abstracts)</li>
+              <li>Submission of Full Paper, Short Paper and Posters through
+                https://cmt3.research.microsoft.com/ICSAC2024</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="paperdiv2"></div>
+
+        <div class="card cont mb-5">
+          <h5 class="card-header">REGISTRATION PROCESS</h5>
+          <div class="card-body text-start">
+            <p class="card-text">
+            <ul>
+              <li><a href="http://christuniversity.in">http://christuniversity.in</a> -> E-services -> Online Payment
+                Portal
+                -> Central
+                Campus -> Conference->ICSAC</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+      </div>
+    </section>
+
+    <section id="popular-courses">
+      <div class="container" data-aos="fade-up" id="speakers">
+        <div class="section-title">
+          <h2>PANEL 1: ARTIFICIAL INTELLIGENCE AND HEALTH CARE</h2>
+          <p>Speakers</p>
+        </div>
+
+        <div class="row trainers d-flex justify-content-around" data-aos="zoom-in" data-aos-delay="100">
+
+          <!-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Anitha.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Anitha</h4>
+                <span>Professor and Head</span>
+                <span> Department of Chemistry</span>
+                <p class="m-0">Christ (Deemed to be University)</p>
+                <p class="m-0"> Bangalore</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> 
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Shyam.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Shyam</h4>
+                <span>Ayurveda Proctologist</span>
+                <p class="m-0">Bangalore</p>
+                <!-- <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Hrishikesh.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Hrishikesh Damle MD</h4>
+                <span>Reliance Health and Technology</span>
+                <p>Bangalore</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/LathaDamle.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Latha</h4>
+                <span>Chief Scientific Officer</span>
+                <span class="m-0">Atrimed Biotech</span>
+                <p class="m-0">Bangalore</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+      <div class="container" data-aos="fade-up" id="speakers">
+        <div class="section-title">
+          <h2>PANEL 2: ADVANCEMENT IN NEUROSCIENCE</h2>
+          <p>Speakers</p>
+        </div>
+
+        <div class="row trainers d-flex justify-content-around" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Madhavi.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Madhavi</h4>
+                <span>Professor</span>
+                <span> School of Social Sciences</span>
+                <p class="m-0">Christ (Deemed to be University)</p>
+                <p class="m-0">Bangalore</p>
+                <!-- <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/SuryaPrakash.jpeg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">SURYA PRASANTH</h4>
+                <span>Assistant Professor</span>
+                <span>Cincinnati Children's</span>
+                <p class="m-0">University of Cincinnati</p>
+                <p class="m-0">USA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/bbanerjee.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Bonny Bannerji</h4>
+                <span>Associate Professor</span>
+                <span>Institute for Intelligent Systems &</span>
+                <span>Electrical and Computer Engineering</span>
+                <p class="m-0">University of Memphis</p>
+                <p class="m-0">USA</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Sowmya</h4>
+                <span>St.Johns Medical College and Hospital</span>
+                <p class="m-0">Bangalore</p>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Roby.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Merjulah Roby</h4>
+                <span>Postdoctoral Research Associate</span>
+                <p class="m-0">University of Texas</p>
+                <p class="m-0">USA</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="container" data-aos="fade-up" id="speakers">
+        <div class="section-title">
+          <h2>PANEL 3: ADVANCED MEDICAL IMAGING AND SUSTAINABLE TECHNOLOGIES</h2>
+          <p>Speakers</p>
+        </div>
+
+        <div class="row trainers d-flex justify-content-around" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Shriram.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Shriram Vasudevan</h4>
+                <span>Lead-Technical Evangelist</span>
+                <p class="m-0">Intel, India</p>
+                <!-- <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Yogesh.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Yogesh Simmhan</h4>
+                <span>Robert Bosch Center for Cyber Physical Systems</span>
+                <span>Indian Institute of Science (IISc)</span>
+                <p class="m-0">Bangalore</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Manjunath.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Manjunath R Kounte</h4>
+                <span>Professor & Head</span>
+                <span>Institute for Intelligent Systems &</span>
+                <span>Electronics and Computer Engineering</span>
+                <p class="m-0">Reva University</p>
+                <p class="m-0">Banglore</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container" data-aos="fade-up" id="speakers">
+        <div class="section-title">
+          <h2>PANEL 4: INDUSTRY AND INNOVATION</h2>
+          <p>Speakers</p>
+        </div>
+
+        <div class="row trainers d-flex justify-content-around" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Pradeep.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Pradeep Sidheswar</h4>
+                <span>Director</span>
+                <span>Research and Development Cell</span>
+                <p class="m-0">Christ (Deemed to be University)</p>
+                <p class="m-0">Bangalore</p>
+                <!-- <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Madhan.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Madhan Kumar</h4>
+                <span>CEO & Co-founder, Wise Work</span>
+                <p class="m-0">A Futuristic Innovation Company</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/Balaji.jpeg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Balaji Ganesh</h4>
+                <span>Director - Co Founder</span>
+                <span>Emsensing Technologies Private Limited</span>
+                <p class="m-0">Chennai</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch d-flex justify-content-around">
+            <div class="member">
+              <img src="assets/images/.jpg" class="img-fluid speaker-image" alt="" />
+              <div class="member-content">
+                <h4 class="mt-2">Dr. Merjulah Roby</h4>
+                <span>Postdoctoral Research Associate</span>
+                <p class="m-0">University of Texas</p>
+                <p class="m-0">USA</p>
+              </div>
+            </div>
+          </div> -->
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="popular-courses">
+
+      <div class="container" data-aos="fade-up" id="speakers">
+        <div class="section-title">
+          <!-- <h2>PANEL 1: ARTIFICIAL INTELLIGENCE AND HEALTH CARE</h2> -->
+          <p>Previous Conference Publications</p>
+        </div>
+
+        <div class="d-flex justify-content-around align-items-center">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="assets/images/book1.jpg" alt="Lights" style="width:100%">
+              <div class="caption">
+                <p class="fw-bold">ICSAC 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="assets/images/book2.jpg" alt="Lights" style="width:100%">
+              <div class="caption">
+                <p class="fw-bold">ICCSST 2023</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container d-flex justify-content-around">
+
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Christ (Deemed to be University)</span></strong>. All Rights Reserved
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Contact Us</h4>
+          <form action="" method="post">
+            <input type="email" name="email" placeholder="Email" /><input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
 
   </footer>
 
-  </div>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
+
+<script>
+  const daysO = document.getElementById("daysO");
+  const hoursO = document.getElementById("hoursO");
+  const minsO = document.getElementById("minsO");
+  const secsO = document.getElementById("secsO");
+
+  var countDownDate = new Date("March 22, 2024 9:00:00").getTime();
+
+  var x = setInterval(function () {
+
+
+    var now = new Date().getTime();
+
+
+    var distance = countDownDate - now;
+
+
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    daysO.innerHTML = days;
+    hoursO.innerHTML = hours;
+    minsO.innerHTML = minutes;
+    secsO.innerHTML = seconds;
+
+    if (distance < 0) {
+      clearInterval(x);
+      days = hours = minutes = seconds = 0;
+    }
+  }, 1000);
+
+</script>
 
 </html>
