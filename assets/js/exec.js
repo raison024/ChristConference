@@ -159,6 +159,209 @@ const advCom = [
   },
 ];
 
+const orgCom = [
+  {
+    name: "Dr Amrutha K",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Anita H B",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Arokia Paul Rajan R",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Beaulah Soundarabai P",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Cecil Donald A",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Cynthia T",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Deepa V Jose",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Fabiola Hazel Pohrmen",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Gobi R",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Helen K Joy",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Hubert Shanthan",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Kavitha R",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Lokanayaki K",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Manjunatha Hiremath",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Mohana Priya T",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Neha Singhal",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Nisha Varghese",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Nismon Rio R",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Nizar Banu P K",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Peter Augustin D",
+    role: "Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Poornima N V",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Prabu P",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Ramamurthy B",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Rohini V",
+    role: "Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Sandeep J",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Sangeetha Govind",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Saravanakumar K",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Saravanan K N",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Senthilnathan T",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Shoney Sebastian",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Ms Smera C",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Smitha Vinod",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Sreeja C S",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Sridevi R",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Sudhakar T",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Suresh K",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Vaidhehi V",
+    role: "Associate Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Vaishnavi Balaji",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Vijay Arputharaj",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+  {
+    name: "Dr Vineetha K R",
+    role: "Assistant Professor",
+    organization: "Christ (Deemed to be University)",
+  },
+];
+
 function createCard(member) {
   const card = document.createElement("div");
   card.className = "card";
@@ -190,6 +393,7 @@ function addCardsToPage() {
   const orgsec = document.getElementById("orgsec");
   const convener = document.getElementById("convener");
   const advContainer = document.getElementById("advContainer");
+  const organizingComm = document.getElementById("organizingComm");
 
   execMembers.forEach((member) => {
     const card = createCard(member);
@@ -224,6 +428,11 @@ function addCardsToPage() {
   advCom.forEach((member) => {
     const card = createCard(member);
     advContainer.appendChild(card);
+  });
+
+  orgCom.forEach((member) => {
+    const card = createCard(member);
+    organizingComm.appendChild(card);
   });
 }
 
